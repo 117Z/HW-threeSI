@@ -39,7 +39,7 @@ public class Main {
         var deliveryDistance1=81.0;//Задание №4 (Второй вариант решения)
         var n = (deliveryDistance1 + 20) / 40;//Определяем в каком диапазоне расстояний
         // находится клиент=срок доставки в днях исходя из формулы max расстояния диапазона:
-        // deliveryDistance=(40n-20)
+        // deliveryDistance1=(40n-20)
         System.out.println("Delivery through - "+Math.ceil(n)+" days");
 
         int monthNumber=9;//Задание №5
@@ -57,7 +57,7 @@ public class Main {
                 System.out.println("Сезон осень");
                 break;
             default:
-                System.out.println("Введите корректный номер месяца Achtung!");
+                System.out.println("Введите корректный номер месяца!");
         }
 
         int monthNumber1=10;//Задание №5 (Второй вариант без switch)
